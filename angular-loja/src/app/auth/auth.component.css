@@ -1,0 +1,37 @@
+#form {
+  margin-top: 50px;
+  position: absolute;
+  background-color: #EEEEEE;
+  width: 80%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 5px rgba(137, 137, 137, 0.74);
+}
+
+form {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  text-align: center;
+}
+
+label {
+  top: 10%;
+  left: 43.5%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  position: absolute;
+}
+
+input{
+    padding: 10px, 0;
+    margin: 10px;
+}
+
+h1 {
+  margin: 50px 10%;
+  color: #ade25d;
+}
