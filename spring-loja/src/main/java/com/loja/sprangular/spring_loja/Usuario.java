@@ -2,18 +2,26 @@ package com.loja.sprangular.spring_loja;
 
 public class Usuario {
 	// model
-	private Integer id;
+	private String userName;
+	private String password;
 
-	public Usuario(Integer id) {
-		this.id = id;
+
+	public String getUserName() {
+		return userName;
 	}
 
-	public Integer getId() {
-		return id;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public String getPassword() {
+		return password;
 	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	
 
 }
